@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "IndexSearch",
+            "request": "launch",
+            "mainClass": "es.udc.fi.irdatos.c2122.cord.IndexSearch",
+            "projectName": "ir-assignment",
+            "args": ["C:\\Users\\uxiom\\Documentos\\Datos\\RI\\ir-assignment-borja-nina-uxio\\src\\main\\java\\es\\udc\\fi\\irdatos\\c2122\\cord\\data", "1", "1000"]
+        },
+        {
+            "type": "java",
+            "name": "MAPevaluation",
+            "request": "launch",
+            "mainClass": "es.udc.fi.irdatos.c2122.cord.MAPevaluation",
+            "projectName": "ir-assignment"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "es.udc.fi.irdatos.c2122.cord.Demo",
+            "projectName": "ir-assignment"
+        },
+        {
+            "type": "java",
+            "name": "Indexer",
+            "request": "launch",
+            "mainClass": "es.udc.fi.irdatos.c2122.cord.Indexer",
+            "projectName": "ir-assignment"
+        },
+        {
+            "type": "java",
+            "name": "ParserIndexer",
+            "request": "launch",
+            "mainClass": "es.udc.fi.irdatos.c2122.cord.ParserIndexer",
+            "projectName": "ir-assignment",
+            "args": "C:\\Users\\uxiom\\Documents\\Datos\\RI\\ir-assignment-borja-nina-uxio\\src\\main\\java\\es\\udc\\fi\\irdatos\\c2122\\cord\\data"
+        },
+        {
+            "type": "java",
+            "name": "ReadMovies",
+            "request": "launch",
+            "mainClass": "es.udc.fi.irdatos.c2122.movies.ReadMovies",
+            "projectName": "ir-assignment"
+        }
+    ]
+}
